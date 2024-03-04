@@ -10,7 +10,7 @@ body {
   max-width: 1466px;
   min-height: 100vh;
   margin: 0 auto;
-  background: url(/img/background.jpg) no-repeat;
+  background: url(../img/background.jpg) no-repeat;
   background-size: cover;
   background-position: center;
 }
@@ -29,14 +29,16 @@ body {
   z-index: 100;
 }
 
-.logo,
-.fa-brands {
-  font-size: 2.4rem;
-  color: #ffffff;
+.logo {
+  background-image: url(../img/canada-flag-22.gif);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-clip: text;
+  color: transparent;
+  font-size: 1.7rem;
   text-decoration: none;
   cursor: pointer;
   font-weight: 700;
-  margin-right: 15px;
 }
 
 .navbar a {
@@ -47,6 +49,6 @@ body {
 }
 
 .navbar a:hover {
-  color: rgb(0, 238, 255);
+  color: rgb(255, 0, 0);
   transition: background-color 1s ease 0s;
 }
